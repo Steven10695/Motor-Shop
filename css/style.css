@@ -1,0 +1,64 @@
+
+html{
+     font-size: 62.5%; /* 1 rem = 10px **/
+}
+
+body{
+     font-family: 'Raleway', sans-serif;
+     font-size: 1.6rem;
+     line-height: 2rem;
+}
+
+h1, h2, h3{
+     font-family: 'Playfair Display', serif;
+     font-size: 3.3rem;
+     margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1{
+     font-size: 3.5rem;
+}
+
+
+/* Texto de encabezado */
+.texto-resaltante{
+     color: #ff8e00;
+}
+
+/* Header */
+
+.titulo-mobile{
+     color: #ff8e00;
+}
+
+/* Slider */
+
+.hero{
+     background-image: url(../images/a619e9_3a9ca88a557b4107bf936d167d84fc2f_mv2.webp);
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     height: 25rem;
+}
+
+
+
+@media (min-width: 768px){
+     h1{
+          font-size: 4rem;
+     }
+
+     .hero{
+          height: 60rem;
+     }
+}
+
+/* Productos Cards Main */
+
+.bg-primary{
+     background-color: #ff8e00!important;
+}
+
